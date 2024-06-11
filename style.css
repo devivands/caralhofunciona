@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(Estilos/imgs-pagina1/639fb733-de0c-4067-9f8c-0a81245201c1.png);
+    background-repeat: no-repeat; /*Para não repetir a imagem e deixar apenas uma e depois preencher no cover abaixo*/
+  background-size: cover;
+    background-color: #f3f3f3;
+}
+/* Estilos para a navegação */
+nav {
+    background-color: #2a383f;
+    overflow: hidden;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background-color 0.4s;
+    font-size: 23px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  nav ul li a:hover {
+    background-color: #71b929;}
+.container {
+    
+        text-align: center;
+        max-width: 900px;
+        
+        margin: auto;
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.card-images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.card-images img {
+    width: 40%; /* Aumentado de 30% para 40% */
+    max-width: 260px; /* Aumentado para refletir o novo tamanho */
+    height: auto;
+    margin: 5px;
+}
+
+.card-image {
+    width: 70%; /* Aumentar o tamanho da imagem antes da pergunta */
+    height: auto;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+}
+
+.btn {
+    background-color: #2a383f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #71b929;
+    transform: scale(1.1);
+    margin-bottom: 4px;
+}
+
+.hide {
+    display: none;
+}
+
+#controls {
+    margin-top: 20px;
+}
+
+.correct {
+    background-color: green;
+}
+
+.wrong {
+    background-color: red;
+}
+
+.large-image img {
+    width: 1300px; /* Aumentado proporcionalmente */
+    height: auto;
+}
